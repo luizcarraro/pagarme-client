@@ -13,25 +13,17 @@ var modelFunctions = {
   fingerprint   = require('./lib/fingerprint.js')
 }
 
-function pagarMe (key) {
-  if (!(this instanceof PagarMe)) {
-    return new PagarMe(key);
-  }
+function PagarmeClient (key) {
+  if (!(this instanceof PagarmeClient)) return new PagarmeClient(key);
 
-  this._api = {
+  this.api = {
       key: key,
-      endpoint: 'https://api.pagar.me',
-      version: '1'
+      url: 'https://api.pagar.me/1/'
   };
 
-  this._loadModelFuntions();
-};
+  // Load models functions, if it didnd already
+  for (var model in modelFunctions) 
+      this[model] = new modelFunctions[model](this);
+}; 
 
-
-PagarMe.prototype = {
-  _loadModelFuntions: function() {
-    for (var model in modelFunctions) this[model] = new models[model](this);
-  }
-};
-
-module.exports = pagarMe;
+module.exports = PagarmeClient;
