@@ -1,0 +1,27 @@
+{
+  "name": "pagarme-client",
+  "version": "0.0.1",
+  "description": "A node client for Pagar.me payment gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Luiz Carraro",
+  "license": "MIT",
+  "dependencies": {
+    "rest-js": "1.1.2",
+    "sha1": "1.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizcarraro/pagarme-client.git"
+  },
+  "keywords": [
+    "pagarme",
+  ],
+  "bugs": {
+    "url": "https://github.com/luizcarraro/pagarme-client/issues"
+  },
+  "homepage": "https://github.com/luizcarraro/pagarme-client#readme"
+}
