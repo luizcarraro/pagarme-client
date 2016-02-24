@@ -1,5 +1,5 @@
 # pagarme-client
-A simple NodeJs client for pagar.me api requests.
+A complete-to-be NodeJs client for [pagar.me](http://www.pagar.me) api requests.
 
 ## Installation
 
@@ -9,4 +9,24 @@ To install, simply add the following line to your package.json
 
 ## Usage
 
-    TODO
+	TODO
+
+## Running tests
+	TODO
+
+# TODO
+
+- [] Start usage description
+- [] Describe how to run tests
+- [] Create tests for all models and validations
+- [] Add Balance model
+- [] Add Bank account model
+- [] Add Card model
+- [] Add Payable model
+- [] Add Plans model
+- [] Add Subscription model
+- [] Add Transfers model
+- [] Add Fingerprint validations
+- [] Provide npmjs listing
+
+Updated 24/02/2016
