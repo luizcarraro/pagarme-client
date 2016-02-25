@@ -8,7 +8,7 @@ var modelFunctions = {
   // bank_account  : require('./lib/bank_account.js'),
   // recipient     : require('./lib/recipient.js'),
   // transfer      : require('./lib/transfer.js'),
-  // transaction   : require('./lib/transaction.js'),
+  transaction   : require('./lib/transaction.js'),
   // zipcode       : require('./lib/zipcode.js'),
   // fingerprint   : require('./lib/fingerprint.js')
 }
