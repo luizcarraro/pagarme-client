@@ -1,4 +1,4 @@
-var modelFunctions = {
+var models = {
   // card          : require('./lib/card.js'),
   customer      : require('./lib/customer.js'),
   // plan          : require('./lib/plan.js'),
@@ -23,8 +23,8 @@ function PagarmeClient (key) {
   };
 
   // Load models functions, if it didnd already
-  for (var model in modelFunctions) 
-      this[model] = new modelFunctions[model](this);
+  for (var m in models) 
+      this[m] = new models[m](this);
 }; 
 
 module.exports = PagarmeClient;
