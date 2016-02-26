@@ -1,6 +1,6 @@
 var modelFunctions = {
   // card          : require('./lib/card.js'),
-  customer      : require('./lib/customer.js')
+  customer      : require('./lib/customer.js'),
   // plan          : require('./lib/plan.js'),
   // subscription  : require('./lib/subscription.js'),
   // payable       : require('./lib/payable.js'),
