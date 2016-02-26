@@ -1,5 +1,5 @@
 before_script:
-	- export PAGARME_KEY=ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2
+	- export PAGARMEKEY=ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2
 language: node_js
 node_js:
 	- 'node'
