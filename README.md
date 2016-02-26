@@ -11,6 +11,9 @@ To install, simply add the following line to your package.json
 
 	TODO
 
+## Examples
+	TODO
+	
 ## Running tests
 	TODO
 
