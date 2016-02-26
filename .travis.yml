@@ -1,9 +1,10 @@
+before_script:
+	- export PAGARME_KEY='ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2'
 language: node_js
 node_js:
 	- 'node'
 env:
 	- CXX=g++-4.8
-	- PAGARME_KEY='ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2'
 addons:
 	apt:
 		sources:
