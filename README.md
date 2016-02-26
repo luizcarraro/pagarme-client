@@ -15,7 +15,11 @@ To install, simply add the following line to your package.json
 	TODO
 	
 ## Running tests
-	TODO
+Just run:
+
+	PAGARME_KEY=ak_test_key npm test
+
+where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 
 # TODO
 
