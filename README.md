@@ -5,7 +5,7 @@ A complete-to-be NodeJs client for [pagar.me](http://www.pagar.me) api requests.
 
 To install, simply add the following line to your package.json
 	
-	"node-client": "git+https://git@github.com/luizcarraro/node-client.git#master",
+	"pagarme-client": "git+https://git@github.com/luizcarraro/pagarme-client.git#master",
 
 ## Usage
 
