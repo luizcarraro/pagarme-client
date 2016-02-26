@@ -1,12 +1,12 @@
 language: node_js
-node_js: 
-  - 'node'
+node_js:
+	- 'node'
 env:
 	- CXX=g++-4.8
 	- PAGARME_KEY='ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2'
 addons:
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - g++-4.8
+	apt:
+		sources:
+			- ubuntu-toolchain-r-test
+		packages:
+			- g++-4.8
