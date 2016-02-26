@@ -1,16 +1,6 @@
 var models = {
-  // card          : require('./lib/card.js'),
   customer      : require('./lib/customer.js'),
-  // plan          : require('./lib/plan.js'),
-  // subscription  : require('./lib/subscription.js'),
-  // payable       : require('./lib/payable.js'),
-  // balance       : require('./lib/balance.js'),
-  // bank_account  : require('./lib/bank_account.js'),
-  // recipient     : require('./lib/recipient.js'),
-  // transfer      : require('./lib/transfer.js'),
   transaction   : require('./lib/transaction.js'),
-  // zipcode       : require('./lib/zipcode.js'),
-  // fingerprint   : require('./lib/fingerprint.js')
 }
 
 function PagarmeClient (key) {
@@ -22,7 +12,7 @@ function PagarmeClient (key) {
       url: 'https://api.pagar.me/1/'
   };
 
-  // Load models functions, if it didnd already
+  // Load models methods, if it didnt already
   for (var m in models) 
       this[m] = new models[m](this);
 }; 
