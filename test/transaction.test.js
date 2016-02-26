@@ -6,10 +6,16 @@ var should = require('should'),
 
 var info = {};
 
-describe('Customer', function() {
+describe('Transaction', function() {
   it('should be able to create a transaction', function(done) {
-    console.log('TODO');
-    done()
+    // Transaction
+    //   .create(helper.transaction)
+    //   .then(function (response) {
+    //     response.should.be.ok;
+    //     done();
+    //   });
+    
+    done();
   });
 
   it('should update a transaction', function(done) {
