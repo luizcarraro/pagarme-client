@@ -1,7 +1,7 @@
 var chance = require('chance')();
 
 module.exports = {
-    pagarMe: require('../index')('ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2'),
+    pagarMe: require('../index')(process.env.PAGARME_KEY || ''),
 
     customer: {
         document_number: "61842181408",
