@@ -2,5 +2,4 @@ language: node_js
 node_js: 
   - 'node'
 env:
-	global:
-		- PAGARME_KEY: ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2
+	- PAGARME_KEY: ak_test_7Sjhb2FHqSy2nDOmVxPEQRVg0eYpc2
