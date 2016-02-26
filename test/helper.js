@@ -25,5 +25,17 @@ module.exports = {
             zipcode: "8546000",
             country: "Brasil",
         }]
+    },
+
+    workingCreditCard: {
+        card_number: '5453010000066167',
+        card_holder_name: 'Walter White',
+        card_expiration_date: '0319',
+        card_cvv: '123'
+    },
+    transaction: {
+        amount: 310000,
+        postback_url: "http://postback.com/thispostback",
+        payment_method: "credit_card",
     }
 };
