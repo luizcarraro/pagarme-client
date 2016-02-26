@@ -41,7 +41,11 @@ describe.only('Transaction', function() {
       .then(function(response) {
         response.status.should.be.equal('authorized');
         done();
-      });
+      })
+      .catch(function (error) {
+        console.log(error.message);
+        done();
+      })
   });
 
   it('should be able to return a transaction by id', function(done) {
