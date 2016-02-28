@@ -6,7 +6,7 @@ var Transaction = helper.pagarMe.transaction;
 var _ = require('lodash');
 var info = {};
 
-describe.only('Transaction', function() {
+describe('Transaction', function() {
   it('should be able to create a transaction', function(done) {
     helper.generateCardHash().then(function(cardhash) {
       var transaction = _.extend(helper.transaction, {
