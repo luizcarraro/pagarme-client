@@ -24,7 +24,7 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 # TODO
 
 - [] Start usage description
-- [] Describe how to run tests
+- [X] Describe how to run tests
 - [] Create tests for all models and validations
 - [] Add Balance model
 - [] Add Bank account model
@@ -36,4 +36,4 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 - [] Add Fingerprint validations
 - [] Provide npmjs listing
 
-Updated 24/02/2016
+Updated 26/02/2016
