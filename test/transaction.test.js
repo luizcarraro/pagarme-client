@@ -17,7 +17,6 @@ describe('Transaction', function() {
         .then(function(response) {
           response.should.be.ok;
           info.transaction = response;
-          console.log(info.transaction.id);
           done();
         });
     });
@@ -41,7 +40,6 @@ describe('Transaction', function() {
       .capture(info.transaction.id)
       .then(function(response) {
         response.status.should.be.equal('authorized');
-        console.log(response.id);
         done();
       })
       .catch(function (error) {
