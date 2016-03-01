@@ -4,7 +4,7 @@
   "description": "A node client for Pagar.me payment gateway",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec -t 70000"
+    "test": "mocha -R spec -t 100000"
   },
   "author": "Luiz Carraro",
   "license": "MIT",
