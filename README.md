@@ -45,7 +45,7 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 - [] Add Card model
 - [X] Add Payable model
 - [] Add Plans model
-- [] Add Subscription model
+- [X] Add Subscription model
 - [] Add Transfers model
 - [] Add Fingerprint validations
 - [] Provide npmjs listing
