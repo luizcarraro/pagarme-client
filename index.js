@@ -1,5 +1,6 @@
 var models = {
   bankAccount   : require('./lib/models/bank_account.js'),
+  card          : require('./lib/card.js')
   customer      : require('./lib/models/customer.js'),
   recipient     : require('./lib/models/recipient.js'),
   subscription  : require('./lib/models/subscription.js'),
