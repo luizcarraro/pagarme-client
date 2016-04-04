@@ -1,6 +1,6 @@
 {
   "name": "pagarme-client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A node client for Pagar.me payment gateway",
   "main": "index.js",
   "scripts": {
