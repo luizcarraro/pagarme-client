@@ -1,6 +1,8 @@
 var models = {
+  bankAccount   : require('./lib/bank_account.js'),
   customer      : require('./lib/customer.js'),
   transaction   : require('./lib/transaction.js'),
+  recipient     : require('./lib/recipient.js')
 }
 
 function PagarmeClient (key) {

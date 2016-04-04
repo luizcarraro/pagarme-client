@@ -1,6 +1,6 @@
 var chance = require('chance')();
 var rest = require('rest-js');
-var ursa    = require('ursa');
+var ursa = require('ursa');
 var api_key = process.env.PAGARME_KEY || '';
 
 module.exports = {
@@ -38,10 +38,29 @@ module.exports = {
 	},
 	stringfiedCreditCard: 'card_number=5453010000066167&card_holder_name=Walter%20White&card_expiration_date=0319&card_cvv=123',
 	transaction: {
-		amount: 310000,
+		amount: 200,
 		postback_url: "http://postback.com/thispostback",
 		payment_method: "credit_card",
-		capture: false
+		capture: 'false'
+	},
+
+	recipient: {
+		bank_account: {
+			bank_code: '341',
+			agencia: '0932',
+			agencia_dv: '5',
+			conta: '58054',
+			conta_dv: '1',
+			document_type: 'cpf',
+			document_number: '26268738888',
+			legal_name: 'API BANK ACCOUNT',
+			charge_transfer_fees: 'false'
+		},
+		transfer_enabled: 'true',
+		transfer_interval: 'weekly',
+		transfer_day: '1',
+		automatic_anticipation_enabled: 'true',
+		anticipatable_volume_percentage: 85
 	},
 
 	generateCardHash: function(done) {
@@ -59,7 +78,7 @@ module.exports = {
 			.then(function(response) {
 				var key = ursa.createPublicKey(new Buffer(response.public_key));
 				var encrypted_string_base64 = key.encrypt(new Buffer(that.stringfiedCreditCard, 'utf8'), 'utf8', 'base64', ursa.RSA_PKCS1_PADDING);
-        var card_hash = response.id + '_' + encrypted_string_base64; 
+				var card_hash = response.id + '_' + encrypted_string_base64;
 				return card_hash;
 			});
 	}
