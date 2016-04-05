@@ -3,9 +3,7 @@ A complete-to-be NodeJs client for [pagar.me](http://www.pagar.me) api requests.
 
 ## Installation
 
-To install, simply add the following line to your package.json
-	
-	"pagarme-client": "git+https://git@github.com/luizcarraro/pagarme-client.git#master",
+	$ npm install pagarme-client
 
 ## Usage
 
@@ -13,7 +11,7 @@ To install, simply add the following line to your package.json
 
 ## Examples
 	TODO
-	
+
 ## Running tests
 Just run:
 
@@ -29,7 +27,7 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 - [] Add Balance model
 - [] Add Bank account model
 - [] Add Card model
-- [] Add Payable model
+- [X] Add Payable model
 - [] Add Plans model
 - [] Add Subscription model
 - [] Add Transfers model
