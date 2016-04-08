@@ -3,7 +3,11 @@ A complete-to-be NodeJs client for [pagar.me](http://www.pagar.me) api requests.
 
 ## Installation
 
-To install, simply add the following line to your package.json
+To install, simply run
+
+	npm install pagarme-client
+
+or add the following line to your package.json
 	
 	"pagarme-client": "git+https://git@github.com/luizcarraro/pagarme-client.git#master",
 
