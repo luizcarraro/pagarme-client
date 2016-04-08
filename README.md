@@ -17,7 +17,7 @@ or add the following line to your package.json
 
 ## Examples
 	TODO
-	
+
 ## Running tests
 Just run:
 
@@ -27,13 +27,13 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 
 # TODO
 
-- [] Start usage description
+- [X] Start usage description
 - [X] Describe how to run tests
 - [] Create tests for all models and validations
 - [] Add Balance model
 - [] Add Bank account model
 - [] Add Card model
-- [] Add Payable model
+- [X] Add Payable model
 - [] Add Plans model
 - [] Add Subscription model
 - [] Add Transfers model
