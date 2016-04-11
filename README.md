@@ -13,7 +13,17 @@ or add the following line to your package.json
 
 ## Usage
 
-	TODO
+	var pagarMe = require('pagarme-client'); 
+	
+	var data = {
+		amount: 15000,
+		card_hash: hash,
+		postback_url: 'http://mypostback.com/postback'
+	};
+	
+	pagarme.transaction.create(data).then(function(response) {
+		console.log('Created pagar.me transaction: ', response.id);
+	}
 
 ## Examples
 	TODO
