@@ -42,7 +42,7 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 
 # License
 	
-	Copyright (c) 20014 Big Mountain Ideas + Innovations <jovan@bigmountainideas.com>
+	Copyright (c) 2016 Luiz Carraro <contato at luizcarraro.com>
 
 	Permission is hereby granted, free of charge, to any person obtaining
 	a copy of this software and associated documentation files (the
