@@ -41,7 +41,7 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 - [X] Describe how to run tests
 - [] Create tests for all models and validations
 - [] Add Balance model
-- [] Add Bank account model
+- [X] Add Bank account model
 - [] Add Card model
 - [X] Add Payable model
 - [] Add Plans model
