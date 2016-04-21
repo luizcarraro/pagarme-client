@@ -11,4 +11,29 @@ describe('Subscription', function() {
     console.log('   TODO');
     done();
   });
+
+  it('should return a subscription', function (done) {
+  	console.log('   TODO');
+    done();
+  });
+
+  it('should return several subscriptions', function (done) {
+  	console.log('   TODO');
+    done();
+  });
+
+  it('should update a subscription', function (done) {
+  	console.log('   TODO');
+    done();
+  });
+  
+  it('should cancel a subscription', function (done) {
+  	console.log('   TODO');
+    done();
+  });
+
+  it('should get all transactions of a subscription', function (done) {
+  	console.log('   TODO');
+    done();
+  });
 });
