@@ -2,7 +2,7 @@
 
 var should = require('should');
 var helper = require('./helper');
-var Recipient = helper.pagarMe.recipient;
+var bankAccount = helper.pagarMe.bankAccount;
 var _ = require('lodash');
 var info = {};
 
