@@ -38,29 +38,18 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 
 # TODO
 
-[X] Start usage description
-
-[X] Describe how to run tests
-
-[] Create tests for all models and validations
-
-[] Add Balance model
-
-[X] Add Bank account model
-
-[] Add Card model
-
-[X] Add Payable model
-
-[] Add Plans model
-
-[X] Add Subscription model
-
-[] Add Transfers model
-
-[] Add Fingerprint validations
-
-[] Provide npmjs listing
+- [X] Start usage description
+- [X] Describe how to run tests
+- [ ] Create tests for all models and validations
+- [ ] Add Balance model
+- [X] Add Bank account model
+- [ ] Add Card model
+- [X] Add Payable model
+- [ ] Add Plans model
+- [X] Add Subscription model
+- [ ] Add Transfers model
+- [ ] Add Fingerprint validations
+- [ ] Provide npmjs listing
 
 # License
 	
