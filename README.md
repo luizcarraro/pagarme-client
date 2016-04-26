@@ -26,7 +26,7 @@ or add the following line to your package.json
 		console.log('Created pagar.me transaction: ', response.id);
 	}
 
-## Examples
+## API
 	TODO
 
 ## Running tests
