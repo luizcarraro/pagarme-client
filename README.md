@@ -13,9 +13,20 @@ or add the following line to your package.json
 
 ## Usage
 
-	TODO
+	var PagarMe = require('pagarme-client'); 
+	var pagarme = new PagarMe(your_environment_key);
+	
+	var data = {
+		amount: 15000,
+		card_hash: hash,
+		postback_url: 'http://mypostback.com/postback'
+	};
+	
+	pagarme.transaction.create(data).then(function(response) {
+		console.log('Created pagar.me transaction: ', response.id);
+	}
 
-## Examples
+## API
 	TODO
 
 ## Running tests
@@ -29,20 +40,20 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 
 - [X] Start usage description
 - [X] Describe how to run tests
-- [] Create tests for all models and validations
-- [] Add Balance model
-- [] Add Bank account model
-- [] Add Card model
+- [ ] Create tests for all models and validations
+- [ ] Add Balance model
+- [X] Add Bank account model
+- [ ] Add Card model
 - [X] Add Payable model
-- [] Add Plans model
-- [] Add Subscription model
-- [] Add Transfers model
-- [] Add Fingerprint validations
-- [] Provide npmjs listing
+- [ ] Add Plans model
+- [X] Add Subscription model
+- [ ] Add Transfers model
+- [ ] Add Fingerprint validations
+- [ ] Provide npmjs listing
 
 # License
 	
-	Copyright (c) 20014 Big Mountain Ideas + Innovations <jovan@bigmountainideas.com>
+	Copyright (c) 2016 Luiz Carraro <contato at luizcarraro.com>
 
 	Permission is hereby granted, free of charge, to any person obtaining
 	a copy of this software and associated documentation files (the
