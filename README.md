@@ -1,4 +1,5 @@
-# pagarme-client [![Build Status](https://travis-ci.org/luizcarraro/pagarme-client.svg?branch=master)](https://travis-ci.org/luizcarraro/pagarme-client)
+# pagarme-client [![Build Status](https://travis-ci.org/luizcarraro/pagarme-client.svg?branch=master)](https://travis-ci.org/luizcarraro/pagarme-client) [![Dependency Status](https://gemnasium.com/badges/github.com/luizcarraro/pagarme-client.svg)](https://gemnasium.com/github.com/luizcarraro/pagarme-client)
+
 A complete-to-be NodeJs client for [pagar.me](http://www.pagar.me) api requests.
 
 ## Installation
