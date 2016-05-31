@@ -6,7 +6,7 @@ var Recipient = helper.pagarMe.recipient;
 var _ = require('lodash');
 var info = {};
 
-describe('Recipient', function() {
+describe('#Recipient', function() {
   it('should be able to create a recipient', function(done) {
     Recipient.create(helper.recipient)
       .then(function(response) {

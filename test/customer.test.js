@@ -6,7 +6,7 @@ var should  = require('should'),
 
 var info = {};
 
-describe('Customer', function () {
+describe('#Customer', function () {
   it('should be able to create a customer', function (done) {
     
     Customer

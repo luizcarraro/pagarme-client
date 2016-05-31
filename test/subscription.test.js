@@ -6,7 +6,7 @@ var subscription = helper.pagarMe.subscription;
 var _ = require('lodash');
 var info = {};
 
-describe('Subscription', function() {
+describe('#Subscription', function() {
   it('should create a new subscription', function(done) {
     console.log('   TODO');
     done();

@@ -6,8 +6,8 @@ var Transaction = helper.pagarMe.transaction;
 var _ = require('lodash');
 var info = {};
 
-describe('Transaction', function() {
-  it('should be able to create a transaction', function(done) {
+describe('#Transaction', function() {
+  it('should create a transaction', function(done) {
     helper.generateCardHash().then(function(cardhash) {
       var transaction = _.extend(helper.transaction, {
         card_hash: cardhash
@@ -62,7 +62,7 @@ describe('Transaction', function() {
   //     });
   // });
 
-  it('should be able to return all transactions', function(done) {
+  it('should return all transactions', function(done) {
     Transaction
       .findAll()
       .then(function(response) {
@@ -72,7 +72,7 @@ describe('Transaction', function() {
       });
   });
 
-  it('should find all split rules', function(done) {
+  it('should return all split rules', function(done) {
     Transaction.findAllSplitRules(info.transaction.id)
       .then(function(response) {
         response.should.be.ok;
@@ -81,12 +81,12 @@ describe('Transaction', function() {
       });
   });
 
-  it('should find a split rule by id', function(done) {
+  it('should return a split rule by id', function(done) {
     console.log('            TODO');
     done()
   });
 
-  it('should find all payables of a transaction', function(done) {
+  it('should return all payables of a transaction', function(done) {
    Transaction.findAllPayables(info.transaction.id)
       .then(function(response) {
         response.should.be.ok;
