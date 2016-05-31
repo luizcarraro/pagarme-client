@@ -8,10 +8,6 @@ To install, simply run
 
 	npm install pagarme-client
 
-or add the following line to your package.json
-	
-	"pagarme-client": "git+https://git@github.com/luizcarraro/pagarme-client.git#master",
-
 ## Usage
 
 	var PagarMe = require('pagarme-client'); 
