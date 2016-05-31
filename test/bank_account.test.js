@@ -6,7 +6,7 @@ var bankAccount = helper.pagarMe.bankAccount;
 var _ = require('lodash');
 var info = {};
 
-describe('Bank Account', function() {
+describe('#Bank Account', function() {
   it('should create a bank account', function(done) {
     console.log('   TODO');
     done();
