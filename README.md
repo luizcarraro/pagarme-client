@@ -38,18 +38,18 @@ where *ak_test_key* is your pagarme test key (get it from the dashboard profile)
 - [X] Start usage description
 - [X] Describe how to run tests
 - [ ] Create tests for all models and validations
-- [ ] Add Balance model
+- [X] Add Balance model
 - [X] Add Bank account model
 - [ ] Add Card model
 - [X] Add Payable model
 - [ ] Add Plans model
 - [X] Add Subscription model
-- [ ] Add Transfers model
+- [X] Add Transfers model
 - [ ] Add Fingerprint validations
-- [ ] Provide npmjs listing
+- [X] Provide npmjs listing
 
 # License
-	
+
 	Copyright (c) 2016 Luiz Carraro <contato at luizcarraro.com>
 
 	Permission is hereby granted, free of charge, to any person obtaining
